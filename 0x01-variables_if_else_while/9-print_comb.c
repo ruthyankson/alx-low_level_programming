@@ -11,8 +11,11 @@ int comma = 44;
 while (n <= 57)
 {
 putchar(n);
+if (n != 57)
+{
 putchar(comma);
 putchar(space);
+}
 n++;
 }
 putchar('\n');
