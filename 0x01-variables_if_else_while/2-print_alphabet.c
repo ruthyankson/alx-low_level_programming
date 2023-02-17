@@ -5,9 +5,12 @@
  */
 int main(void)
 {
-for (int x = 'A'; x <= 'Z'; x++)
+int ch = 'a';
+while (ch <= 'z')
 {
-putchar(tolower(x));
+putchar(ch);
+ch++;
 }
+ putchar('\n');
 return (0);
 }
