@@ -13,10 +13,10 @@ int space = 32;
 int comma = 44;
 while (i <= 57)
 {
-j = 48;
+j = i;
 while (j <= 57)
 {
-k = i;
+k = j;
 while (k <= 57)
 {
 l = k;
