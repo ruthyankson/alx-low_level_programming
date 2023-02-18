@@ -16,15 +16,15 @@ while (i <= 57)
 j = 48;
 while (j <= 56)
 {
-putchar(i);
-putchar(j);
-putchar(space);
 k = i;
 while (k <= 57)
 {
 l = k;
 while (l <= 57)
 {
+putchar(i);
+putchar(j);
+putchar(space);
 putchar(k);
 putchar(l);
 if (!(i == 57 && j == 56 && k == 57 && l == 57))
