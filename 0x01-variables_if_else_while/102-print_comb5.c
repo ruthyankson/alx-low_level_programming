@@ -14,13 +14,15 @@ int comma = 44;
 while (i <= 57)
 {
 j = 48;
-while (j <= 56)
+while (j <= 57)
 {
 k = i;
 while (k <= 57)
 {
-l = k;
+l = 48;
 while (l <= 57)
+{
+if (!((i == 48 && j == 48 && k == 48 && l == 48) || (i == 57 && j == 57)))
 {
 putchar(i);
 putchar(j);
@@ -31,6 +33,7 @@ if (!(i == 57 && j == 56 && k == 57 && l == 57))
 {
 putchar(comma);
 putchar(space);
+}
 }
 l++;
 }
