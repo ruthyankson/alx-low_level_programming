@@ -11,7 +11,7 @@ while (i <= 57)
 j = 48;
 while (j <= 57)
 {
-k = 48;
+k = i;
 while (k <= 57)
 {
 if (k == 48)
