@@ -5,12 +5,7 @@
  */
 int main(void)
 {
-int i = 48;
-int j;
-int k;
-int l;
-int space = 32;
-int comma = 44;
+int i = 48, j, k, l, space = 32, comma = 44;
 while (i <= 57)
 {
 j = 48;
@@ -19,7 +14,10 @@ while (j <= 57)
 k = 48;
 while (k <= 57)
 {
+if (k == 48)
 l = j;
+else
+l = 48;
 while (l <= 57)
 {
 if (!((i == k && j == l) || (k == 48 && l == 48) || (i == 57 && j == 57)))
