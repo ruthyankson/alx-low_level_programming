@@ -14,7 +14,10 @@ while (j <= 57)
 k = i;
 while (k <= 57)
 {
+if (k == i)
 l = j + 1;
+else
+l = 48;
 while (l <= 57)
 {
 if (!((i == k && j == l) || (k == 48 && l == 48) || (i == 57 && j == 57)))
