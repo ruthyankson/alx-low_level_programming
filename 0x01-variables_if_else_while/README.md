@@ -10,3 +10,4 @@
 8-print_base16.c prints all the numbers of base 16 in lowercase, followed by a new line with only putchar
 9-print_comb.c prints all possible combinations of single-digit numbers separated by commas and spaces using only putchar
 100-print_comb3.c prints all possible different combinations of two digits without repeating the reverse combination.
+101-print_comb4.c prints all possible different combinations of three digits without repeating the reverse and using putchar only
