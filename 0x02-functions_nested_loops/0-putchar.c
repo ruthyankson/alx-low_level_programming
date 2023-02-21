@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  *main - Entry point
  *Return: Always 0 (Success)
@@ -11,10 +11,10 @@ int main(void)
 
 	while (arr_len > 0)
 	{
-		putchar(arr_char[i]);
+		_putchar(arr_char[i]);
 		i++;
 		arr_len--;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
