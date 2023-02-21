@@ -1,15 +1,7 @@
 #include "main.h"
 /**
- *main - Entry point
- *Return: Always 0 (Success)
+ *print_alphabet - prints the alphabet, in lowercase, followed by a new line.
  */
-int main(void)
-{
-	/* prints the alphabet, in lowercase, followed by a new line. */
-	print_alphabet();
-	return (0);
-}
-
 void print_alphabet(void)
 {
 	int ch = 'a';
