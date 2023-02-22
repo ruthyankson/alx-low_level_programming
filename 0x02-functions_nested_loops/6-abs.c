@@ -6,7 +6,7 @@
  *Return: the absolute value of the input number (Success)
  */
 
-int _abs(int)
+int _abs(int n)
 {
-	return (int * ((int > 0) - (int < 0)));
+	return (n * ((n > 0) - (n < 0)));
 }
