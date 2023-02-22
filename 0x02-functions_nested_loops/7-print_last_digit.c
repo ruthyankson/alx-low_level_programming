@@ -6,7 +6,7 @@
  *Return: last digit of the input value (Success)
  */
 
-int print_last_digit(int)
+int print_last_digit(int n)
 {
-	return (int % 10);
+	return (n % 10);
 }
