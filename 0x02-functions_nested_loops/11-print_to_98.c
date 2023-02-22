@@ -18,7 +18,7 @@ void print_to_98(int n)
 			num = -num;
 		}
 		count = 0;
-		while ((num / 10) != 0)
+		while (num != 0)
 		{
 			n /= 10;
 			count++;
