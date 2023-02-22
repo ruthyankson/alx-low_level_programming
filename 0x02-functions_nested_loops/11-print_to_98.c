@@ -15,7 +15,7 @@ void print_to_98(int n)
 		if (num < 0)
 		{
 			_putchar('-');
-			num = -num;
+			num *= -1;
 		}
 		count = 0;
 		while (num != 0)
@@ -23,12 +23,11 @@ void print_to_98(int n)
 			n /= 10;
 			count++;
 		}
-		div10 = 10 ^ count;
-		while ((num / 10) != 0)
+		div10 = 10 ^ (count - 1);
+		while ((num / 10) != 0 && div10 != 0)
 		{
-			_putchar(((num - (num % div10)) / div10) + '0');
-			_putchar((num % div10) + '0');
-			num /= 10;
+			_putchar((num / div10) + '0');
+			num %= div10;
 			div10 /= 10;
 		}
 		if ((num / 10) == 0)
