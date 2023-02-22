@@ -22,15 +22,11 @@ int print_sign(int n)
 		_putchar(32);
 		return (0);
 	}
-	else if (n < '0')
+	else
 	{
-		_putchar(48);
+		_putchar(45);
 		_putchar(44);
 		_putchar(32);
 		return (-1);
-	}
-	else
-	{
-		return;
 	}
 }
