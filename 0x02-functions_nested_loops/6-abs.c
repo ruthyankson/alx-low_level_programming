@@ -2,10 +2,11 @@
 
 /**
  *_abs - computes the absolute value of an integer.
- *Return: Always 0 (Success)
+ *@int: input value (int)
+ *Return: the absolute value of the input number (Success)
  */
 
 int _abs(int)
 {
-	
+	return (int * -1);
 }
