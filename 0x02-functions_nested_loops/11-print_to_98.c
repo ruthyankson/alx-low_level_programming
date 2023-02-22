@@ -28,8 +28,7 @@ void print_to_98(int n)
 		while (n >= max_lim)
 		{
 			num = (n / 10);
-			_putchar(num + '0');
-			_putchar((n % 10) + '0');
+			_putchar((num % 10) + '0');
 			if (n != max_lim)
 			{
 				_putchar(',');
