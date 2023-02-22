@@ -7,9 +7,9 @@
 
 void print_to_98(int n)
 {
-	int max_lim = 98, num, l_num;
+	int max_lim = 98, num, count, div10;
 
-	while (n != max_lim)
+	while (n <= max_lim || n >= max_lim)
 	{
 		num = n;
 		if (num < 0)
@@ -17,13 +17,22 @@ void print_to_98(int n)
 			_putchar('-');
 			num = -num;
 		}
+		count = 0;
 		while ((num / 10) != 0)
 		{
-			l_num = num % 10;
-			num = ((num - l_num) / 10);
+			n /= 10;
+			count++;
 		}
-		_putchar(num + '0');
-		_putchar(l_num + '0');
+		div10 = 10 ^ count;
+		while ((num / 10) != 0)
+		{
+			_putchar(((num - (num % div10)) / div10) + '0');
+			_putchar((num % div10) + '0');
+			num /= 10;
+			div10 /= 10;
+		}
+		if ((num / 10) == 0)
+			_putchar(num + '0');
 		if (n != max_lim)
 		{
 			_putchar(',');
