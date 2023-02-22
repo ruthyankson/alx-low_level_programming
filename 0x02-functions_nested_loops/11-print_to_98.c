@@ -14,13 +14,10 @@ void print_to_98(int n)
 		while (n <= max_lim)
 		{
 			num = n;
-			while (num != 0)
+			while ((num / 10) != 0)
 			{
-				if (num / 10)
-				{
-					num = (num / 10);
-				}
-				_putchar((num % 10) + '0');
+				_putchar(num % 10);
+				num = ((num - (num % 10)) / 10);
 			}
 			if (n != max_lim)
 			{
