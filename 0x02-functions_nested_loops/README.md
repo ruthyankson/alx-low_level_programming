@@ -18,3 +18,8 @@ Checks for lowercase character; returns 1 if true and 0 otherwise.
 
 ## 4-isalpha.c
 Checks for alphabetic character; returns 1 if true and 0 otherwise.
+
+## 5-sign.c
+Prints the sign of a number; prints '+' and returns 1 if the number is greater
+than 0; '0' and returns 0 if the number is 0; '-' and returns -1 if the number
+is less than 0.
