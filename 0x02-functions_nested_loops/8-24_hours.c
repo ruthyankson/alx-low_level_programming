@@ -8,10 +8,10 @@ void jack_bauer(void)
 {
 	int hr = 0, min;
 
-	while (hr <= 24)
+	while (hr <= 23)
 	{
 		min = 0;
-		while (min <= 60)
+		while (min <= 59)
 		{
 			_putchar((hr / 10) + '0');
 			_putchar((hr % 10) + '0');
