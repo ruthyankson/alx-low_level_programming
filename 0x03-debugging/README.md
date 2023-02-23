@@ -11,3 +11,6 @@ given a case of 0.
 ## 1-main.c
 Contains code running an infinite loop to be debugged.
 
+## 2-largest_number.c
+Contains code that correctly prints out the largest of three numbers,
+no matter the case.
