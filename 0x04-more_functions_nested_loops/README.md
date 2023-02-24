@@ -12,3 +12,6 @@ Checks for a digit (0 through 9). Returns 1 if digit, 0 otherwise.
 
 ## 2-mul.c
 Multiplies two integers.
+
+## 3-print_numbers.c
+Prints the numbers, from 0 to 9, followed by a new line.
