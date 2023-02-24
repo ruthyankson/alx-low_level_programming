@@ -10,25 +10,21 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		if (i % 3 == 0)
+		if (i % 3 == 0 || i % 5 == 0)
 		{
-			for (j = 0; j <= 3; j++)
+			if (i % 3 == 0)
 			{
-				putchar(fizB[j]);
+				for (j = 0; j <= 3; j++)
+				{
+					putchar(fizB[j]);
+				}
 			}
-		}
-		else if (i % 5 == 0)
-		{
-			for (j = 4; j <= 7; j++)
+			if (i % 5 == 0)
 			{
-				putchar(fizB[j]);
-			}
-		}
-		else if (i % 15 == 0)
-		{
-			for (j = 0; j <= 7; j++)
-			{
-				putchar(fizB[j]);
+				for (j = 4; j <= 7; j++)
+				{
+					putchar(fizB[j]);
+				}
 			}
 		}
 		else
