@@ -27,3 +27,6 @@ Draws a straight line in the terminal.
 
 ## 7-print_diagonal.c
 Draws a diagonal line on the terminal.
+
+## 8-print_square.c
+Prints a square, followed by a new line.
