@@ -1,52 +1,44 @@
-#include "main.h"
+#include <stdio.h>
 /**
  *main - fizz_buzz program
  *Return: 0, Always success
  */
 int main(void)
 {
-	int i;
+	int i, j;
+	char fizB[] = {'F', 'i', 'z', 'z', 'B', 'u', 'z', 'z'};
 
 	for (i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0)
 		{
-			_putchar('F');
-			_putchar('i');
-			_putchar('z');
-			_putchar('z');
+			for (j = 0; j <= 3; j++)
+			{
+				putchar(fizB[j]);
+			}
 		}
 		else if (i % 5 == 0)
 		{
-			_putchar('B');
-			_putchar('u');
-			_putchar('z');
-			_putchar('z');
+			for (j = 4; j <= 7; j++)
+			{
+				putchar(fizB[j]);
+			}
 		}
 		else if (i % 15 == 0)
 		{
-			_putchar('F');
-			_putchar('i');
-			_putchar('z');
-			_putchar('z');
-			_putchar('B');
-			_putchar('u');
-			_putchar('z');
-			_putchar('z');
+			for (j = 0; j <= 7; j++)
+			{
+				putchar(fizB[j]);
+			}
 		}
 		else
 		{
 			if (i > 9 && i < 100)
-				_putchar((i / 10) + '0');
-			else if (i == 100)
-			{
-				_putchar((i / 100) + '0');
-				_putchar((i % 100) + '0');
-			}
-			_putchar((i % 10) + '0');
+				putchar((i / 10) + '0');
+			putchar((i % 10) + '0');
 		}
-		_putchar(32);
+		putchar(32);
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
