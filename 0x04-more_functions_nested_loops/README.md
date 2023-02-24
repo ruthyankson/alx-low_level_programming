@@ -5,4 +5,7 @@ Contains more files with functions and nested loops
 Contains prototypes of the various functions in the files.
 
 ## 0-isupper.c
-Checks for uppercase character.
+Checks for uppercase character. Returns 1 if uppercase, 0 otherwise.
+
+## 1-isdigit.c
+Checks for a digit (0 through 9). Returns 1 if digit, 0 otherwise.
