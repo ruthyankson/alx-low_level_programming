@@ -5,8 +5,7 @@
  */
 int main(void)
 {
-	int i, j;
-	char fizB[] = {'F', 'i', 'z', 'z', 'B', 'u', 'z', 'z'};
+	int i;
 
 	for (i = 1; i <= 100; i++)
 	{
@@ -14,17 +13,17 @@ int main(void)
 		{
 			if (i % 3 == 0)
 			{
-				for (j = 0; j <= 3; j++)
-				{
-					putchar(fizB[j]);
-				}
+				putchar('F');
+				putchar('i');
+				putchar('z');
+				putchar('z');
 			}
 			if (i % 5 == 0)
 			{
-				for (j = 4; j <= 7; j++)
-				{
-					putchar(fizB[j]);
-				}
+				putchar('B');
+				putchar('u');
+				putchar('z');
+				putchar('z');
 			}
 		}
 		else
