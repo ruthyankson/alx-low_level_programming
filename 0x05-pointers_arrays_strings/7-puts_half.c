@@ -10,10 +10,10 @@ void puts_half(char *str)
 	int evmid = length_s / 2;
 
 	if (length_s % 2 == 1)
-		n = odmid;
+		n = odmid + 1;
 	else
 		n = evmid;
-	for (i = n + 1; i <= length_s; i++)
+	for (i = n; i <= length_s; i++)
 	{
 		if (str[i] != '\0')
 			_putchar(str[i]);
