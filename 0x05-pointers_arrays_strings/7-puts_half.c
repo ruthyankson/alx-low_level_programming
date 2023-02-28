@@ -15,8 +15,7 @@ void puts_half(char *str)
 		n = odmid;
 	for (i = n; i <= length_s; i++)
 	{
-		if (i % 2 == 0 && str[i] != '\0')
-			_putchar(str[i]);
+		_putchar(str[i]);
 	}
 	_putchar('\n');
 }

@@ -27,3 +27,6 @@ Prints every other even character of a string, starting with the first character
 
 ## 7-puts_half.c
 Prints the last half of a string, followed by a new line.
+
+## 8-print_array.c
+Prints n elements of an array of integers, followed by a new line.
