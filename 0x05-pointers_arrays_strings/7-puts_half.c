@@ -9,10 +9,10 @@ void puts_half(char *str)
 	int odmid = (length_s - 1) / 2;
 	int evmid = length_s / 2;
 
-	if (length_s % 2 == 0)
-		n = evmid;
-	else
+	if (length_s % 2 == 1)
 		n = odmid;
+	else
+		n = evmid;
 	for (i = n; i <= length_s; i++)
 	{
 		if (str[i] != '\0')
