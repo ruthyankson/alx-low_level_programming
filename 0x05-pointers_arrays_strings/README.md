@@ -23,4 +23,4 @@ Prints a string, in reverse, followed by a new line.
 Reverses a string.
 
 ## 6-puts2.c
-Prints every other character of a string, starting with the first character, followed by a new line.
+Prints every other even character of a string, starting with the first character, followed by a new line.
