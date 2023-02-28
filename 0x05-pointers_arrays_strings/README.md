@@ -15,3 +15,9 @@ Returns the length of a string.
 
 ## 3-puts.c
 Prints a string, followed by a new line, to stdout.
+
+## 4-print_rev.c
+Prints a string, in reverse, followed by a new line.
+
+## 5-rev_string.c
+Reverses a string.
