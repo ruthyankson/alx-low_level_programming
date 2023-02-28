@@ -6,7 +6,7 @@
 void rev_string(char *s)
 {
 	int i, length_s = _strlen(s);
-	int mid = lenth_s / 2;
+	int mid = length_s / 2;
 	char temp;
 
 	for (i = 0; i < mid; i++)
