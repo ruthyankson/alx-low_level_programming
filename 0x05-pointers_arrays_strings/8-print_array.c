@@ -7,15 +7,18 @@
  */
 void print_array(int *a, int n)
 {
-	int i;
+	int i, arr_size = sizeof(a) / sizeof(a[0]);
 
-	for (i = 0; i < n; i++)
+	if (n <= arr_size)
 	{
-		printf("%d", a[i]);
-		if (i != n - 1)
+		for (i = 0; i < n; i++)
 		{
-			_putchar(',');
-			_putchar(32);
+			printf("%d", a[i]);
+			if (i != n - 1)
+			{
+				_putchar(',');
+				_putchar(32);
+			}
 		}
 	}
 	_putchar('\n')
