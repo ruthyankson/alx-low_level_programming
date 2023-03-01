@@ -7,7 +7,8 @@
  */
 void print_array(int *a, int n)
 {
-	int i, arr_size = sizeof(a) / sizeof(a[0]);
+	int i;
+	size_t arr_size = sizeof(a) / sizeof(a[0]);
 
 	if (n <= arr_size)
 	{
@@ -21,5 +22,5 @@ void print_array(int *a, int n)
 			}
 		}
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
