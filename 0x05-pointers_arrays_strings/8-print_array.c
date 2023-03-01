@@ -8,18 +8,13 @@
 void print_array(int *a, int n)
 {
 	int i;
-	size_t arr_size = sizeof(a) / sizeof(a[0]);
-
-	if (n <= arr_size)
+	for (i = 0; i < n; i++)
 	{
-		for (i = 0; i < n; i++)
+		printf("%d", a[i]);
+		if (i != n - 1)
 		{
-			printf("%d", a[i]);
-			if (i != n - 1)
-			{
-				_putchar(',');
-				_putchar(32);
-			}
+			_putchar(',');
+			_putchar(32);
 		}
 	}
 	_putchar('\n');
