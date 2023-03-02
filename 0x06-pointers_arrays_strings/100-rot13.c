@@ -4,7 +4,7 @@
  *@a: array
  *Return: pointer to array
  */
-char *rot13(char *)
+char *rot13(char *a)
 {
 	int i, j;
 	char alpha[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
