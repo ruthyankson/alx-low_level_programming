@@ -33,8 +33,8 @@ Encodes a string using rot13.
 ## 101-print_number.c
 Prints an integer.
 
-##
-
+## 102-magic.c
+Prints a[2] = 98, followed by a new line.
 
 ##
 
