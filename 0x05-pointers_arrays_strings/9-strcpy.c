@@ -3,11 +3,10 @@
  *_strcpy - coping src, into the buffer pointed to by dest.
  *@dest: Destination
  *@src: Source
- *Return:
+ *Return: charater pointer
  */
 char *_strcpy(char *dest, char *src)
 {
-	int i = 0;
 	char *ret_ptr = dest;
 
 	while (*src != '\0')
