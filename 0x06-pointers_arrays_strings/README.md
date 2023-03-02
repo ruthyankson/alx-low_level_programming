@@ -36,7 +36,8 @@ Prints an integer.
 ## 102-magic.c
 Prints a[2] = 98, followed by a new line.
 
-##
+## 103-infinite_add.c
+Adds two numbers.
 
-
-##
+## 104-print_buffer.c
+Prints a buffer.
