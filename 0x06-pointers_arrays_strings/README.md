@@ -27,8 +27,8 @@ Encodes a string into 1337. (a and A  replaced by 4;
 e and E replaced by 3; o and O; replaced by 0;
 t and T replaced by 7; l and L replaced by 1)
 
-##
-
+## 100-rot13.c
+Encodes a string using rot13.
 
 ##
 
