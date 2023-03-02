@@ -7,8 +7,8 @@ Concatenates two strings.
 ## 1-strncat.c
 Concatenates two strings based on number given.
 
-##
-
+## 2-strncpy.c
+Copies a string.
 
 ##
 
