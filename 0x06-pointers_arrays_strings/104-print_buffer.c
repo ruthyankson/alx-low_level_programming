@@ -22,7 +22,7 @@ void print_buffer(char *b, int size)
 		for (i = 0; i < 10; i++)
 		{
 			if (i < j)
-				printf("%02x", *(b + obj + i));
+				printf("%08lx", *(b + obj + i));
 			else
 				printf("  ");
 			if (i % 2)
@@ -33,7 +33,7 @@ void print_buffer(char *b, int size)
 			int cp = *(b + obj + i);
 
 			if (cp < 32 || cp > 132)
-				cp = '-';
+				cp = '.';
 			printf("%c", cp);
 		}
 		printf("\n");
