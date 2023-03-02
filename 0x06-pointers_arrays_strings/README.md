@@ -4,8 +4,8 @@ Contains project work on Pointers, Arrays and Strings
 ## 0-strcat.c
 Concatenates two strings.
 
-##
-
+## 1-strncat.c
+Concatenates two strings based on number given.
 
 ##
 
