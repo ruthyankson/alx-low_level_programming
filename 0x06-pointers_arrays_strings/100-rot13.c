@@ -8,7 +8,7 @@ char *rot13(char *a)
 {
 	int i, j;
 	char alpha[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	char val[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	char alpha_r[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 	for (i = 0; a[i] != '\0'; i++)
 	{
@@ -16,7 +16,7 @@ char *rot13(char *a)
 		{
 			if (a[i] == alpha[j])
 			{
-				a[i] = alpha[j];
+				a[i] = alpha_r[j];
 				break;
 			}
 		}
