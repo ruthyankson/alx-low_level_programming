@@ -1,0 +1,40 @@
+#include "main.h"
+/**
+ *is_palindrome - returns 1 if a string is a palindrome and 0 if not.
+ *@s: char array
+ *Return: 1 (success), 0 (failure)
+ */
+int is_palindrome(char *s)
+{
+	if (*s == 0)
+		return (1);
+	return (palindrome(s, 0, strl(s)));
+}
+
+/**
+ *palindrome - checks characters recursively for equality (palindrome)
+ *@s: string
+ *@i: iterator
+ *@len: string length
+ *Return: 1 (palindrome), 0 (not palindrome)
+ */
+int palindrome(char *s, int i, int len)
+{
+	if (*(s + i) != *(s + len - 1))
+		return (0);
+	if (i >= len)
+		return (1);
+	return (palindrome(s, i + 1, len - 1));
+}
+
+/**
+ *strl - returns string length
+ *@s: string
+ *Return: length
+ */
+int strl(char *s)
+{
+	if (*s == '\0')
+		return (0);
+	return (1 + strl(s + 1));
+}
