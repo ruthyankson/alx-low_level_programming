@@ -1,0 +1,9 @@
+## 0x09-static_libraries
+About static libraries
+
+# libmy.a
+Contains functions
+
+# main.h
+Contains fuction prototypes
+
