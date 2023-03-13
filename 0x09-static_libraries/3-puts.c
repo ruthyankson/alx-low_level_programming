@@ -1,12 +1,16 @@
 #include<stdio.h>
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ *_puts - writes the string s and a trailing newline to stdout.
  */
-int main(void)
+void _puts(char *s)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+	int i = 0;
+
+	while (s[i] != '\0')
+	{
+		putchar(s[i] + '0');
+		i++;
+	}
+	putchar('\n');
 }
