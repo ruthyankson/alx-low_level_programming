@@ -6,14 +6,17 @@
 #include <stdbool.h>
 
 /**
- *struct node - singly linked list
- *@data: integer element
- *@next: pointer to the next node
- *Description: singly linked list node structure
+ * struct listint_s - singly linked list
+ * @n: integer
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure
+ *
  */
-typedef struct node {
-	int data;
-	struct node *next;
+typedef struct listint_s
+{
+    int n;
+    struct listint_s *next;
 } listint_t;
 
 int _putchar(int c);
