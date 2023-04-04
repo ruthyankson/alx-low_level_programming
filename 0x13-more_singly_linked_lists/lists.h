@@ -1,6 +1,21 @@
 #ifndef LISTS_H
 #define LISTS_H "lists.h"
 
+#include <stdlib.h>
+#include <stdio.h>
+#include <stdbool.h>
+
+/**
+ *struct node - singly linked list
+ *@data: integer element
+ *@next: pointer to the next node
+ *Description: singly linked list node structure
+ */
+struct node {
+	int data;
+	struct node *next;
+} listint_t;
+
 int _putchar(int c);
 size_t print_listint(const listint_t *h);
 size_t listint_len(const listint_t *h);
