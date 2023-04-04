@@ -11,7 +11,7 @@
  *@next: pointer to the next node
  *Description: singly linked list node structure
  */
-struct node {
+typedef struct node {
 	int data;
 	struct node *next;
 } listint_t;
