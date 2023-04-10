@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * create_buffer - Allocates 1024 bytes for a buffer.
  * @file: The name of the file buffer is storing chars for.
